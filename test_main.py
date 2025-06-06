@@ -1,6 +1,7 @@
-# test_main.py
+from main import add, subtract
 
-from main import greet
+def test_add():
+    assert add(2, 3) == 5
 
-def test_greet():
-    assert greet("World") == "Hello, World!"
+def test_subtract():
+    assert subtract(5, 3) == 2
