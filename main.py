@@ -1,7 +1,9 @@
-# main.py
+def add(a, b):
+    return a + b
 
-def greet(name):
-    return f"Hello, {name}!"
+def subtract(a, b):
+    return a - b
 
 if __name__ == "__main__":
-    print(greet("Pradip"))
+    print("Add:", add(10, 2))       # Output: Add: 12
+    print("Subtract:", subtract(10, 2))  # Output: Subtract: 8
